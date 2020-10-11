@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   font-weight: 500;
+  background-color: #efefef;
 }
 
 html {
@@ -161,6 +162,108 @@ h1 {
   font-size: 25px;
   position: relative;
   top: 10px;
+}
+
+.portfolio {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+.sk8tool-box, .EMS-box {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.sk8tool-box h3, .EMS-box h3 {
+  color: #646464;
+}
+
+
+.sk8tool-box p, .EMS-box p {
+  height: 120px;
+}
+
+
+
+
+.sk8tool-box {
+  width: 400px;
+}
+
+.EMS-box {
+  width: 450px;
+}
+
+.box-contain {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+.sk8tool , .EMS{
+  margin: 10px;
+  height: 30vh;
+  width: auto;
+  box-sizing: border-box;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.sk8tool img, .EMS img {
+  height: 100%;
+  width: auto;
+}
+
+.sk8tool:hover .sk8tool-text {
+  opacity: 0.8;
+}
+
+.EMS:hover .EMS-text {
+  opacity: 0.9;
+}
+
+.sk8tool-text,
+.EMS-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+	height: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #408486;
+  color: #cdece7;
+}
+
+.sk8tool-text p {
+  font-size: 30px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.EMS-text p {
+  font-size: 30px;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .contact {

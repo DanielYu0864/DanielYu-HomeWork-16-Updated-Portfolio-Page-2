@@ -1,6 +1,7 @@
 # DanielYu-HomeWork-16-Updated-Portfolio-Page-2
 
-* Home Page
+### Home Page
+
 ![screenshot](./img/Screenshot.png)
 
 ## What I did
